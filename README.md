@@ -8,15 +8,16 @@
 
 ## 📘 Overview
 
-The **Dark’s Invoice Dataset Collection** is a curated repository of **nine structured invoice datasets** designed to facilitate research and development in the fields of **Document AI**, **OCR**, and **automated information extraction**.
+The **Dark’s Invoice Dataset Collection** is a curated repository of structured invoice datasets designed to support research and development in **Document AI**, **OCR**, and **automated information extraction**.
 
-Each dataset provides:
+### 📄 Current Dataset Includes:
 
-- 🖼️ High-resolution invoice images  
-- 🧾 Ground-truth annotations in **TSV** format  
-- 🗂️ Structured metadata in **XML** format  
+- Invoices in **PDF format only**
+- Bill types primarily from **e-commerce and similar domains**
+- A mix of **single-page** and **multi-page invoices**
 
-This collection supports tasks in academic research, machine learning model training, and the development of **Intelligent Document Processing (IDP)** systems.
+This collection is well-suited for building and evaluating models in **Intelligent Document Processing (IDP)** systems, especially for real-world invoice formats.
+
 
 ---
 
@@ -25,21 +26,9 @@ This collection supports tasks in academic research, machine learning model trai
 Each dataset (`invoice_dataset_model_1` to `invoice_dataset_model_9`) follows a consistent directory structure:
 
 ```
-invoice_dataset_model_X/
-├── annotations/   # Field-level labels in TSV format
-├── images/        # Invoice scans in JPG format
-└── xml/           # Metadata and layout structure in XML format
+Invoice Name/
+├── pdf/   # PDF of bills
 ```
-
----
-
-## ✅ Key Features
-
-- 🗃️ **Nine modular datasets** covering diverse invoice layouts  
-- 🧾 **Detailed annotations** for key invoice fields  
-- 🧱 **Structured metadata** for layout and semantic parsing  
-- 🔁 **Standardized format** across all datasets  
-- 🧪 Suitable for both **training** and **evaluation** purposes  
 
 ---
 
@@ -80,5 +69,5 @@ Proper attribution supports further development and helps others discover the da
 
 ## 👤 Credits
 
-**Curated and Maintained by**: Dark  
+**Created and Maintained by**: Dark  
 _"Turning thoughts into insights."_
