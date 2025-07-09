@@ -8,26 +8,40 @@
 
 ## 📘 Overview
 
-The **Dark’s Invoice Dataset Collection** is a curated repository of structured invoice datasets designed to support research and development in **Document AI**, **OCR**, and **automated information extraction**.
+The **Dark’s Invoice Dataset Collection** is a curated repository of structured document datasets designed to support research and development in **Document AI**, **OCR**, and **automated information extraction**.
 
 ### 📄 Current Dataset Includes:
 
-- Invoices in **PDF format only**
-- Bill types primarily from **e-commerce and similar domains**
-- A mix of **single-page** and **multi-page invoices**
+- Documents in **PDF format only**
+- Includes:
+  - **E-commerce invoices**
+  - **Lab reports**
+  - **Service agreements**
+- A mix of **single-page** and **multi-page documents**
 
-This collection is well-suited for building and evaluating models in **Intelligent Document Processing (IDP)** systems, especially for real-world invoice formats.
-
+This collection is well-suited for building and evaluating models in **Intelligent Document Processing (IDP)** systems, especially for real-world structured documents.
 
 ---
 
 ## 📁 Directory Structure
 
-Each dataset (`invoice_dataset_model_1` to `invoice_dataset_model_9`) follows a consistent directory structure:
+Each dataset folder follows a consistent structure:
 
 ```
-Invoice Name/
-├── pdf/   # PDF of bills
+Dataset Name/
+├── pdf/ # PDF files of documents
+```
+
+```
+Dataset Name/
+E Commerce Invoice/
+├── pdf/
+
+Lab Report/
+├── pdf/
+
+Service Agreement/
+├── pdf/
 ```
 
 ---
