@@ -1,4 +1,4 @@
-# 🧾 Dark’s Invoice Dataset Collection
+# 🧾 Darkvault IDP Suite Dataset Collection
 
 **Author**: Dark  
 **Version**: 1.0  
