@@ -93,7 +93,7 @@ Any commercial use, redistribution, or integration into proprietary products is 
 If you use this dataset in your research or project, please acknowledge it with the following:
 
 > Dark. **Dark’s Invoice Dataset Collection (v1.0).** 2025.  
-> [https://github.com/Naveen-2402/Dark-s-Invoice-Dataset](https://github.com/Naveen-2402/Dark-s-Invoice-Dataset)
+> [https://github.com/Naveen-2402/Darkvault-IDP-Suite](https://github.com/Naveen-2402/Darkvault-IDP-Suite)
 
 Proper attribution supports further development and helps others discover the dataset.
 
