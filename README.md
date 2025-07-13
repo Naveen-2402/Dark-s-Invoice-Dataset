@@ -8,8 +8,11 @@
 
 ## 📘 Overview
 
-The **Dark’s Invoice Dataset Collection** is a curated repository of structured document datasets designed to support research and development in **Document AI**, **OCR**, and **automated information extraction**.
+The **Darkvault IDP Suite Dataset Collection** is a curated repository of structured document datasets designed to support research and development in **Document AI**, **OCR**, and **automated information extraction**.
 
+### 📄 Current Dataset Includes:
+
+- Documents in **PDF format only**
 ### 📄 Current Dataset Includes:
 
 - Documents in **PDF format only**
@@ -17,7 +20,13 @@ The **Dark’s Invoice Dataset Collection** is a curated repository of structure
   - **E-commerce invoices**
   - **Lab reports**
   - **Service agreements**
+  - **Consulting tenders**
+  - **Infrastructure tenders (Set 1 & 2)**
+  - **Pharma tenders**
 - A mix of **single-page** and **multi-page documents**
+
+This collection is ideal for building and evaluating models in **Intelligent Document Processing (IDP)** systems, especially for handling real-world structured and semi-structured documents.
+
 
 This collection is well-suited for building and evaluating models in **Intelligent Document Processing (IDP)** systems, especially for real-world structured documents.
 
@@ -28,16 +37,25 @@ This collection is well-suited for building and evaluating models in **Intellige
 Each dataset folder follows a consistent structure:
 
 ```
-Dataset Name/
-├── pdf/ # PDF files of documents
-```
+Darkvault IDP Suite/
+├── pdf/  # PDF files of documents
 
-```
-Dataset Name/
+Consulting Tender/
+├── pdf/
+
 E Commerce Invoice/
 ├── pdf/
 
+Infrastructure Tenders - 1/
+├── pdf/
+
+Infrastructure Tenders - 2/
+├── pdf/
+
 Lab Report/
+├── pdf/
+
+Pharma Tenders/
 ├── pdf/
 
 Service Agreement/
